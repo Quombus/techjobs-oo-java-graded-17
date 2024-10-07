@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Added two constructors for Job class. The initial constructor sets a unique id for the class object while the second constructor sets the rest of the fields for the class object. &#10;&#10;added getters all fields EXCEPT &quot;nextId&quot;&#10;added setters all fields EXCEPT &quot;nextId&quot;, &quot;Id&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Added tests in JobClass that test the Job constructor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,12 +117,29 @@
       <option name="project" value="LOCAL" />
       <updated>1728319497896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added tests in JobClass that test the Job constructor">
+      <option name="closed" value="true" />
+      <created>1728320421389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728320421389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added tests in JobClass that test the Job constructor">
+      <option name="closed" value="true" />
+      <created>1728320706596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728320706596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added equals and hascode methods for PositionType&#10;&#10;Added a constructor to Location that takes a string as its value field and calls the original constructor to set its unique int ID number&#10;&#10;Added an overriden toString method in PositionType that returns the value of the PositionType object" />
     <MESSAGE value="Added two constructors for Job class. The initial constructor sets a unique id for the class object while the second constructor sets the rest of the fields for the class object. &#10;&#10;added getters all fields EXCEPT &quot;nextId&quot;&#10;added setters all fields EXCEPT &quot;nextId&quot;, &quot;Id&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two constructors for Job class. The initial constructor sets a unique id for the class object while the second constructor sets the rest of the fields for the class object. &#10;&#10;added getters all fields EXCEPT &quot;nextId&quot;&#10;added setters all fields EXCEPT &quot;nextId&quot;, &quot;Id&quot;" />
+    <MESSAGE value="Added tests in JobClass that test the Job constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests in JobClass that test the Job constructor" />
   </component>
 </project>
