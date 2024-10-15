@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
 
+import static java.lang.System.lineSeparator;
+
 public class Job {
 
     private int id;
@@ -93,33 +95,40 @@ public class Job {
         if (!(this.getName() == null || this.getName().isEmpty())) {
             name = this.getName();
         } else {
-            name = "Data Not Available";
+            name = "Data not available";
         }
 
         if (!(this.getEmployer().toString() == null || this.getEmployer().toString().isEmpty())) {
             employer = this.getEmployer().toString();
         } else {
-            employer = "Data Not Available";
+            employer = "Data not available";
         }
 
         if (!(this.getLocation().toString() == null || this.getLocation().toString().isEmpty())) {
             location = this.getLocation().toString();
         } else {
-            location = "Data Not Available";
+            location = "Data not available";
         }
         if (!(this.getPositionType().toString() == null || this.getPositionType().toString().isEmpty())) {
             position = this.getPositionType().toString();
         } else {
-            position = "Data Not Available";
+            position = "Data not available";
         }
         if (!(this.getCoreCompetency().toString() == null || this.getCoreCompetency().toString().isEmpty())) {
             competency = this.getCoreCompetency().toString();
         } else {
-            competency = "Data Not Available";
+            competency = "Data not available";
         }
 
 
-        return "\n" + "ID : " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + position + "\n" + "Core Competency: " + competency + "\n";
+        return lineSeparator() +
+                "ID : " + id + lineSeparator()
+                + "Name: " + name + lineSeparator() +
+                "Employer: " + employer +lineSeparator() +
+                "Location: " + location + lineSeparator() +
+                "Position Type: " + position + lineSeparator() +
+                "Core Competency: " + competency + lineSeparator() +
+                lineSeparator();
 
 
     }
