@@ -83,6 +83,26 @@ public class Job {
     }
 
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public void setEmployer(Employer employer) {
+        this.employer = employer;
+    }
+
+    public void setPositionType(PositionType positionType) {
+        this.positionType = positionType;
+    }
+
+    public void setCoreCompetency(CoreCompetency coreCompetency) {
+        this.coreCompetency = coreCompetency;
+    }
+
     public String toString() {
 
         String name = "";
@@ -122,12 +142,12 @@ public class Job {
 
 
         return lineSeparator() +
-                "ID : " + id + lineSeparator()
+                "ID: " + id + lineSeparator()
                 + "Name: " + name + lineSeparator() +
                 "Employer: " + employer +lineSeparator() +
                 "Location: " + location + lineSeparator() +
                 "Position Type: " + position + lineSeparator() +
-                "Core Competency: " + competency + lineSeparator() +
+                "Core Competency: " + competency +
                 lineSeparator();
 
 

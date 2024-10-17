@@ -3,6 +3,7 @@ package org.launchcode.techjobs.oo;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static java.lang.System.lineSeparator;
 import static org.junit.Assert.*;
 
 public class JobTest {
@@ -43,8 +44,8 @@ public class JobTest {
     public void testToStringStartsAndEndsWithNewLine() {
         Job testJob1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
-        assertEquals('\n', testJob1.toString().charAt(0));
-        assertEquals('\n', testJob1.toString().charAt(testJob1.toString().length() - 1));
+        assertEquals(lineSeparator(), testJob1.toString().charAt(0));
+        assertEquals(lineSeparator(), testJob1.toString().charAt(testJob1.toString().length() - 1));
     }
 
     @Test
@@ -58,7 +59,13 @@ public class JobTest {
         String position = testJob1.getPositionType().toString();
         String competency = testJob1.getCoreCompetency().toString();
 
-        assertEquals(testJob1.toString(), "\n" + "ID : " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + position + "\n" + "Core Competency: " + competency + "\n");
+        assertEquals(testJob1.toString(), lineSeparator() +
+                "ID: " + id + lineSeparator()
+                + "Name: " + name + lineSeparator() +
+                "Employer: " + employer +lineSeparator() +
+                "Location: " + location + lineSeparator() +
+                "Position Type: " + position + lineSeparator() +
+                "Core Competency: " + competency + lineSeparator());
     }
 
     @Test
@@ -68,12 +75,18 @@ public class JobTest {
 
         String id = Integer.toString(testJob1.getId());
         String name = testJob1.getName();
-        String employer = "Data Not Available";
+        String employer = "Data not available";
         String location = testJob1.getLocation().toString();
         String position = testJob1.getPositionType().toString();
         String competency = testJob1.getCoreCompetency().toString();
 
-        assertEquals(testJob1.toString(), "\n" + "ID : " + id + "\n" + "Name: " + name + "\n" + "Employer: " + employer + "\n" + "Location: " + location + "\n" + "Position Type: " + position + "\n" + "Core Competency: " + competency + "\n");
+        assertEquals(testJob1.toString(), lineSeparator() +
+                "ID: " + id + lineSeparator()
+                + "Name: " + name + lineSeparator() +
+                "Employer: " + employer +lineSeparator() +
+                "Location: " + location + lineSeparator() +
+                "Position Type: " + position + lineSeparator() +
+                "Core Competency: " + competency + lineSeparator());
 
     }
     }
