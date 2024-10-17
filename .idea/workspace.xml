@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Added tests in JobClass that test the Job constructor">
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Added tests in JobClass that test the Job toString method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,21 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build techjobs-oo-java-graded-17.executor": "Run",
-    "Gradle.JobTest.testJobsForEquality.executor": "Run",
-    "Gradle.JobTest.testToStringStartsAndEndsWithNewLine.executor": "Run",
-    "Gradle.techjobs-oo-java-graded-17 [:Main.main()].executor": "Run",
-    "JUnit.JobTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build techjobs-oo-java-graded-17.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testJobsForEquality.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testSettingJobId.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.JobTest.testToStringContainsCorrectLabelsAndData.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testToStringHandlesEmptyField.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JobTest.testToStringStartsAndEndsWithNewLine.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'org.launchcode.techjobs.oo'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.techjobs-oo-java-graded-17 [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JobTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.JobTest.testToStringStartsAndEndsWithNewLine">
-    <configuration name="JobTest.testJobsForEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.Tests in 'org.launchcode.techjobs.oo'">
+    <configuration name="JobTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -67,7 +83,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testJobsForEquality&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -78,7 +94,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="JobTest.testToStringStartsAndEndsWithNewLine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JobTest.testSettingJobId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -91,7 +107,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringStartsAndEndsWithNewLine&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testSettingJobId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobTest.testToStringContainsCorrectLabelsAndData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringContainsCorrectLabelsAndData&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JobTest.testToStringHandlesEmptyField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringHandlesEmptyField&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,16 +204,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
-      <item itemvalue="Gradle.JobTest.testJobsForEquality" />
+      <item itemvalue="Gradle.JobTest" />
+      <item itemvalue="Gradle.JobTest.testSettingJobId" />
+      <item itemvalue="Gradle.JobTest.testToStringContainsCorrectLabelsAndData" />
+      <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
       <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
       <item itemvalue="JUnit.JobTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
-        <item itemvalue="Gradle.JobTest.testJobsForEquality" />
         <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
+        <item itemvalue="Gradle.JobTest" />
+        <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
+        <item itemvalue="Gradle.JobTest.testSettingJobId" />
+        <item itemvalue="Gradle.JobTest.testToStringContainsCorrectLabelsAndData" />
       </list>
     </recent_temporary>
   </component>
@@ -218,13 +286,22 @@
       <option name="project" value="LOCAL" />
       <updated>1728321145100</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added tests in JobClass that test the Job toString method">
+      <option name="closed" value="true" />
+      <created>1728939912441</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939912442</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added equals and hascode methods for PositionType&#10;&#10;Added a constructor to Location that takes a string as its value field and calls the original constructor to set its unique int ID number&#10;&#10;Added an overriden toString method in PositionType that returns the value of the PositionType object" />
     <MESSAGE value="Added two constructors for Job class. The initial constructor sets a unique id for the class object while the second constructor sets the rest of the fields for the class object. &#10;&#10;added getters all fields EXCEPT &quot;nextId&quot;&#10;added setters all fields EXCEPT &quot;nextId&quot;, &quot;Id&quot;" />
     <MESSAGE value="Added tests in JobClass that test the Job constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests in JobClass that test the Job constructor" />
+    <MESSAGE value="Added tests in JobClass that test the Job toString method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests in JobClass that test the Job toString method" />
   </component>
 </project>
