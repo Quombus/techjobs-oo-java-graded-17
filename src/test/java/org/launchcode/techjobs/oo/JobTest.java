@@ -44,8 +44,9 @@ public class JobTest {
     public void testToStringStartsAndEndsWithNewLine() {
         Job testJob1 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
-        assertEquals(lineSeparator(), testJob1.toString().charAt(0));
-        assertEquals(lineSeparator(), testJob1.toString().charAt(testJob1.toString().length() - 1));
+        assertEquals(lineSeparator(), testJob1.toString().substring(0,2));
+        assertEquals(lineSeparator(), testJob1.toString().substring(testJob1.toString().length() - 2));
+
     }
 
     @Test
